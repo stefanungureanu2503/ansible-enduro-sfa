@@ -1,0 +1,12 @@
+export VITE_OIDC_ENABLED={{ enduro_auth_enabled }}
+export VITE_OIDC_BASE_URL={{ enduro_auth_oidc_base_url }}
+export VITE_OIDC_AUTHORITY={{ enduro_auth_oidc_provider_url }}
+export VITE_OIDC_CLIENT_ID={{ enduro_auth_oidc_dashboard_client_id }}
+export VITE_OIDC_SCOPES={{ enduro_auth_oidc_scopes }}
+export VITE_OIDC_EXTRA_QUERY_PARAMS={{ enduro_auth_oidc_extra_query_params }}
+export VITE_OIDC_ABAC_ENABLED={{ enduro_auth_oidc_abac_enabled }}
+export VITE_OIDC_ABAC_CLAIM_PATH={{ enduro_auth_oidc_abac_claim_path }}
+export VITE_OIDC_ABAC_CLAIM_PATH_SEPARATOR={{ enduro_auth_oidc_abac_claim_path_separator }}
+export VITE_OIDC_ABAC_CLAIM_VALUE_PREFIX={{ enduro_auth_oidc_abac_claim_value_prefix }}
+export VITE_OIDC_ABAC_USE_ROLES={{ enduro_auth_oidc_abac_use_roles }}
+export VITE_OIDC_ABAC_ROLES_MAPPING='{{ enduro_auth_oidc_abac_roles_mapping | replace('\n','') }}'
